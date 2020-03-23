@@ -4,7 +4,7 @@
     :class="classes"
     class="v-offset"
   >
-    <slot />
+    <slot/>
   </div>
 </template>
 

@@ -1,4 +1,3 @@
-
 export default {
   props: {
     fullWidth: {
@@ -12,12 +11,12 @@ export default {
   },
 
   computed: {
-    classes () {
+    classes() {
       return {
         'v-offset--full-width': this.fullWidth
       }
     },
-    styles () {
+    styles() {
       return {
         top: `-${this.offset}px`,
         marginBottom: `-${this.offset}px`
