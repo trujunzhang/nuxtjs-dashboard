@@ -1,4 +1,4 @@
-import helperOffset from '~/components/helper/AppOffset'
+import helperOffset from '~/components/helper/AppOffset.vue'
 
 export default {
   inheritAttrs: false,
