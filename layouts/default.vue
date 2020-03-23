@@ -6,17 +6,5 @@
   </v-app>
 </template>
 
-<script>
-  export default {
-    data() {
-      return {
-        isLoading: true
-      }
-    },
-    mounted() {
-      this.$nextTick(function() {
-        this.isLoading = false
-      });
-    }
-  }
-</script>
+<script src="./default.js"/>
+ 
