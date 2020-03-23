@@ -39,7 +39,7 @@
     </helper-offset>
 
     <v-card-text>
-      <slot />
+      <slot/>
     </v-card-text>
 
     <v-divider
@@ -48,7 +48,7 @@
     />
 
     <v-card-actions v-if="$slots.actions">
-      <slot name="actions" />
+      <slot name="actions"/>
     </v-card-actions>
   </v-card>
 </template>

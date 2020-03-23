@@ -1,4 +1,3 @@
-
 import materialCard from '~/components/material/AppCard.vue'
 
 export default {

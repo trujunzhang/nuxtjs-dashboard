@@ -6,7 +6,7 @@
     class="v-alert--notification"
     v-on="$listeners"
   >
-    <slot />
+    <slot/>
   </v-alert>
 </template>
 

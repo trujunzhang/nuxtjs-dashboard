@@ -1,5 +1,4 @@
-
-import materialCard  from '~/components/material/AppCard.vue'
+import materialCard from '~/components/material/AppCard.vue'
 
 export default {
   inheritAttrs: false,
