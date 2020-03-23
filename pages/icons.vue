@@ -60,7 +60,7 @@
 </template>
 
 <script>
-  import materialCard from '~/components/material/AppCard'
+  import materialCard from '~/components/material/AppCard.vue'
 
   export default {
     layout: 'dashboard',

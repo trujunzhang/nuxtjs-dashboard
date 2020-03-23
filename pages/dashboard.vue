@@ -360,9 +360,9 @@
 </template>
 
 <script>
-  import materialCard from '~/components/material/AppCard'
-  import materialChartCard from '~/components/material/AppChartCard'
-  import materialStatsCard from '~/components/material/AppStatsCard'
+  import materialCard from '~/components/material/AppCard.vue'
+  import materialChartCard from '~/components/material/AppChartCard.vue'
+  import materialStatsCard from '~/components/material/AppStatsCard.vue'
 
   export default {
     layout: 'dashboard',

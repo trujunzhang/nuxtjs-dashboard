@@ -232,7 +232,7 @@
 </template>
 
 <script>
-  import materialCard from '~/components/material/AppCard'
+  import materialCard from '~/components/material/AppCard.vue'
   import materialNotification from '~/components/material/AppNotification'
 
   export default {

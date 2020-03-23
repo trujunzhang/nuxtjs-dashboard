@@ -10,26 +10,8 @@
   </v-alert>
 </template>
 
-<script>
-export default {
-  inheritAttrs: false,
+<script src="./AppNotification.js"/>
 
-  props: {
-    elevation: {
-      type: [Number, String],
-      default: 6
-    },
-    value: {
-      type: Boolean,
-      default: true
-    }
-  }
-}
-</script>
+<style lang="scss" src="./AppNotification.scss"/>
 
-<style>
-.v-alert--notification {
-  border-radius: 4px !important;
-  border-top: none !important;
-}
-</style>
+

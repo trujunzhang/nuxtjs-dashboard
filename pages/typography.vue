@@ -68,7 +68,7 @@
   const material = 'The Life of Material Dashboard';
   const small = 'Header with small subtitle';
 
-  import materialCard from '~/components/material/AppCard'
+  import materialCard from '~/components/material/AppCard.vue'
 
   export default {
     layout: 'dashboard',
