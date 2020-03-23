@@ -12,4 +12,4 @@
 
 <script src="./dashboard.js"/>
 
-<style lang="scss" module src="./dashboard.module.scss"/>
+<style lang="scss" module src="./dashboard.scss"/>
