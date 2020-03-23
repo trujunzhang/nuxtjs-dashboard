@@ -1,13 +1,13 @@
-import coreFilter from '~/components/core/AppFilter';
-  import coreToolbar from '~/components/core/AppToolbar';
-  import coreDrawer from '~/components/core/AppDrawer';
-  import coreView from '~/components/core/AppView';
+import coreFilter from '~/components/core/AppFilter.vue';
+import coreToolbar from '~/components/core/AppToolbar.vue';
+import coreDrawer from '~/components/core/AppDrawer.vue';
+import coreView from '~/components/core/AppView.vue';
 
-  export default {
-    components: {
-      coreFilter,
-      coreToolbar,
-      coreDrawer,
-      coreView
-    }
+export default {
+  components: {
+    coreFilter,
+    coreToolbar,
+    coreDrawer,
+    coreView
   }
+}

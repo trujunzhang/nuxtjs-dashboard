@@ -29,21 +29,6 @@
   </v-footer>
 </template>
 
-<script>
-export default {
-  data: () => ({
-    links: [
-      { name: 'Dashboard', Link: '/dashboard' },
-      { name: 'Creative Tim', Link: 'https://www.creative-tim.com' },
-      { name: 'About Us', Link: 'https://creative-tim.com/presentation' },
-      { name: 'Blog', Link: 'https://blog.creative-tim.com' }
-    ]
-  })
-}
-</script>
+<script src="./AppFooter.js"/>
 
-<style>
-#core-footer {
-  z-index: 0;
-}
-</style>
+<style lang="scss" src="./AppFooter.scss"/>

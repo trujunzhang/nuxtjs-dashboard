@@ -1,16 +1,15 @@
 <template>
   <v-app>
-    <core-filter />
+    <core-filter/>
 
-    <core-toolbar />
+    <core-toolbar/>
 
-    <core-drawer />
+    <core-drawer/>
 
-    <core-view />
+    <core-view/>
   </v-app>
 </template>
 
 <script src="./dashboard.js"/>
 
-<style lang="scss" module src="./dashboard.module.scss">
- 
+<style lang="scss" module src="./dashboard.module.scss"/>

@@ -20,9 +20,9 @@
       >
         <v-list dense>
           <v-list-tile avatar to="/">
-          <v-list-tile-avatar
-            color="white"
-          >
+            <v-list-tile-avatar
+              color="white"
+            >
               <v-img
                 :src="logo"
                 height="34"
@@ -66,124 +66,6 @@
   </v-navigation-drawer>
 </template>
 
-<script>
-  // Utilities
-  import { mapActions, mapGetters } from 'vuex'
+<script src="./AppDrawer.js"/>
 
-  export default {
-    data() {
-      return {
-        logo: '/vuetifylogo.png',
-        links: [
-          {
-            to: '/dashboard',
-            icon: 'mdi-view-dashboard',
-            text: 'Dashboard'
-          },
-          {
-            to: '/user-profile',
-            icon: 'mdi-account',
-            text: 'User Profile'
-          },
-          {
-            to: '/table-list',
-            icon: 'mdi-clipboard-outline',
-            text: 'Table List'
-          },
-          {
-            to: '/typography',
-            icon: 'mdi-format-font',
-            text: 'Typography'
-          },
-          {
-            to: '/icons',
-            icon: 'mdi-chart-bubble',
-            text: 'Icons'
-          },
-          {
-            to: '/maps',
-            icon: 'mdi-map-marker',
-            text: 'Maps'
-          },
-          {
-            to: '/notifications',
-            icon: 'mdi-bell',
-            text: 'Notifications'
-          }
-        ],
-        responsive: true
-      }
-    },
-    computed: {
-      ...mapGetters({
-        image: 'app/getImage',
-        color: 'app/getColor',
-        drawer: 'app/getDrawer'
-      }),
-
-
-      inputValue: {
-        get() {
-          return this.drawer
-        },
-        set(val) {
-          this.setDrawer(val)
-        }
-      }
-    },
-    mounted () {
-      this.onResponsiveInverted()
-      window.addEventListener('resize', this.onResponsiveInverted)
-    },
-    beforeDestroy () {
-      window.removeEventListener('resize', this.onResponsiveInverted)
-    },
-    methods: {
-      ...mapActions({
-        setDrawer: 'app/setDrawer'
-      }),
-
-      onResponsiveInverted() {
-        this.responsive = window.innerWidth < 991;
-      }
-    }
-  }
-</script>
-
-<style lang="scss">
-  #app-drawer {
-
-    &.v-navigation-drawer .v-list {
-      background: rgba(27, 27, 27, 0.4);
-      padding: 0;
-    }
-
-    .v-divider {
-      margin: 0;
-    }
-
-    .v-list__tile {
-      border-radius: 4px;
-
-      &--buy {
-        margin-top: auto;
-        margin-bottom: 17px;
-      }
-
-      &__title {
-        color: #ffffff;
-      }
-    }
-
-    .v-image__image--contain {
-      top: 9px;
-      height: 60%;
-    }
-
-    .search-input {
-      margin-bottom: 30px !important;
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-  }
-</style>
+<style lang="scss" src="./AppDrawer.scss"/>
